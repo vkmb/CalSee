@@ -1,4 +1,21 @@
 import sys, tty, time
+# v 0.0
+# Scrath my itch
+# -------------------------
+# v 0.1
+# type -> quants, verbal 
+# number of questions > 0
+# time for each question kept constant at 2 minutes 
+# -------------------------
+# v 0.2
+# question type 
+# file path to read questions (starting with csv)
+# Show timer for each 
+# -------------------------
+# v 0.3 
+# make a gui 
+# -------------------------
+
 tty.setcbreak(sys.stdin)  
 start_time, end_time, old_time, cur_time = 0, 0, 0, 0
 file_ptr = open('test-time.txt', mode='a+')
